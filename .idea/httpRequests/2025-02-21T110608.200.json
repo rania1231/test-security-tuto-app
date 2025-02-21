@@ -1,0 +1,20 @@
+[
+  {
+    "id": "341f98d1-1e0f-458c-8047-a552d75b36aa",
+    "name": "mohamed",
+    "price": 2.01,
+    "quantity": 10
+  },
+  {
+    "id": "b4bb52ab-4c14-4c96-8832-329c6ec5fe2d",
+    "name": "amine",
+    "price": 12.01,
+    "quantity": 50
+  },
+  {
+    "id": "4fa98b88-5944-4526-9b92-df86d5816bd2",
+    "name": "yosra",
+    "price": 22.01,
+    "quantity": 80
+  }
+]

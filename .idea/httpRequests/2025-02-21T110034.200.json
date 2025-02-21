@@ -1,0 +1,231 @@
+{
+  "authorities": [
+    {
+      "authority": "SCOPE_email"
+    },
+    {
+      "authority": "SCOPE_profile"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": null
+  },
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzXzNyaHBwdTJveTBpMUFQYkpRbV9FTUtFSkpaNHhDekdzajYxVVdrSmY4In0.eyJleHAiOjE3NDAxMzIzMDIsImlhdCI6MTc0MDEzMjAwMiwianRpIjoiY2QxNWQwZmQtY2ZiZC00YjE0LTg4YzctMTU3ZWU1MmRmNmZjIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9lY29tLXdlYi1hcHAiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiODZjYTc0OGEtZTMyZC00NjdhLWJkZGUtMzg4YWUwYzRiYzU1IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZnJvbnQtZW5kLWFuZ3VsYXItY2xpZW50Iiwic2lkIjoiMjlmNmM1YjEtZTE4NS00MGI1LTkxZDMtOTBiNTNlODcyODY4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjQyMDAiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJVU0VSIiwiZGVmYXVsdC1yb2xlcy1lY29tLXdlYi1hcHAiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJSYW5pYSBIYW1kaSIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIxIiwiZ2l2ZW5fbmFtZSI6IlJhbmlhIiwiZmFtaWx5X25hbWUiOiJIYW1kaSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIn0.WzLg5H7-KwQU7_NdbAfWvGGNuO0isGSbPpSxz9pvCfAU_MQGcowvDZH5rdKPFepF37Y9X__DBwWJkPUEE2iEBf5zzK5u0tmIsNog0Z7Nd66mByp-Up6fYG0xdAdhJiGIGHu8qxlAGFaCzMbVhTNI0TkGFRCJqAma1_JqaFLwfUIR84x_BmbxxwHuhHdLi3V0kpSwuE52FmnhqID-NjYdy8JQCkwPdE356jdU82xWUycybfdhiyhxkMzgPETq9pFHi5PHNb1Bn2CmpeEHvSV2Y0YeuclOA8gBh03rKmG2ljCVyk6CpwP5QYqME9IBoI1lcMOlHICpAcQIQ0obTJx1zg",
+    "issuedAt": "2025-02-21T10:00:02Z",
+    "expiresAt": "2025-02-21T10:05:02Z",
+    "headers": {
+      "kid": "3_3rhppu2oy0i1APbJQm_EMKEJJZ4xCzGsj61UWkJf8",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/ecom-web-app",
+      "typ": "Bearer",
+      "preferred_username": "user1",
+      "given_name": "Rania",
+      "sid": "29f6c5b1-e185-40b5-91d3-90b53e872868",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "USER",
+          "default-roles-ecom-web-app"
+        ]
+      },
+      "azp": "front-end-angular-client",
+      "scope": "email profile",
+      "name": "Rania Hamdi",
+      "exp": "2025-02-21T10:05:02Z",
+      "iat": "2025-02-21T10:00:02Z",
+      "family_name": "Hamdi",
+      "jti": "cd15d0fd-cfbd-4b14-88c7-157ee52df6fc",
+      "email": "user1@gmail.com"
+    },
+    "subject": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/ecom-web-app",
+    "id": "cd15d0fd-cfbd-4b14-88c7-157ee52df6fc",
+    "audience": [
+      "account"
+    ]
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzXzNyaHBwdTJveTBpMUFQYkpRbV9FTUtFSkpaNHhDekdzajYxVVdrSmY4In0.eyJleHAiOjE3NDAxMzIzMDIsImlhdCI6MTc0MDEzMjAwMiwianRpIjoiY2QxNWQwZmQtY2ZiZC00YjE0LTg4YzctMTU3ZWU1MmRmNmZjIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9lY29tLXdlYi1hcHAiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiODZjYTc0OGEtZTMyZC00NjdhLWJkZGUtMzg4YWUwYzRiYzU1IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZnJvbnQtZW5kLWFuZ3VsYXItY2xpZW50Iiwic2lkIjoiMjlmNmM1YjEtZTE4NS00MGI1LTkxZDMtOTBiNTNlODcyODY4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjQyMDAiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJVU0VSIiwiZGVmYXVsdC1yb2xlcy1lY29tLXdlYi1hcHAiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJSYW5pYSBIYW1kaSIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIxIiwiZ2l2ZW5fbmFtZSI6IlJhbmlhIiwiZmFtaWx5X25hbWUiOiJIYW1kaSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIn0.WzLg5H7-KwQU7_NdbAfWvGGNuO0isGSbPpSxz9pvCfAU_MQGcowvDZH5rdKPFepF37Y9X__DBwWJkPUEE2iEBf5zzK5u0tmIsNog0Z7Nd66mByp-Up6fYG0xdAdhJiGIGHu8qxlAGFaCzMbVhTNI0TkGFRCJqAma1_JqaFLwfUIR84x_BmbxxwHuhHdLi3V0kpSwuE52FmnhqID-NjYdy8JQCkwPdE356jdU82xWUycybfdhiyhxkMzgPETq9pFHi5PHNb1Bn2CmpeEHvSV2Y0YeuclOA8gBh03rKmG2ljCVyk6CpwP5QYqME9IBoI1lcMOlHICpAcQIQ0obTJx1zg",
+    "issuedAt": "2025-02-21T10:00:02Z",
+    "expiresAt": "2025-02-21T10:05:02Z",
+    "headers": {
+      "kid": "3_3rhppu2oy0i1APbJQm_EMKEJJZ4xCzGsj61UWkJf8",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/ecom-web-app",
+      "typ": "Bearer",
+      "preferred_username": "user1",
+      "given_name": "Rania",
+      "sid": "29f6c5b1-e185-40b5-91d3-90b53e872868",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "USER",
+          "default-roles-ecom-web-app"
+        ]
+      },
+      "azp": "front-end-angular-client",
+      "scope": "email profile",
+      "name": "Rania Hamdi",
+      "exp": "2025-02-21T10:05:02Z",
+      "iat": "2025-02-21T10:00:02Z",
+      "family_name": "Hamdi",
+      "jti": "cd15d0fd-cfbd-4b14-88c7-157ee52df6fc",
+      "email": "user1@gmail.com"
+    },
+    "subject": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/ecom-web-app",
+    "id": "cd15d0fd-cfbd-4b14-88c7-157ee52df6fc",
+    "audience": [
+      "account"
+    ]
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzXzNyaHBwdTJveTBpMUFQYkpRbV9FTUtFSkpaNHhDekdzajYxVVdrSmY4In0.eyJleHAiOjE3NDAxMzIzMDIsImlhdCI6MTc0MDEzMjAwMiwianRpIjoiY2QxNWQwZmQtY2ZiZC00YjE0LTg4YzctMTU3ZWU1MmRmNmZjIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9lY29tLXdlYi1hcHAiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiODZjYTc0OGEtZTMyZC00NjdhLWJkZGUtMzg4YWUwYzRiYzU1IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiZnJvbnQtZW5kLWFuZ3VsYXItY2xpZW50Iiwic2lkIjoiMjlmNmM1YjEtZTE4NS00MGI1LTkxZDMtOTBiNTNlODcyODY4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjQyMDAiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJVU0VSIiwiZGVmYXVsdC1yb2xlcy1lY29tLXdlYi1hcHAiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJSYW5pYSBIYW1kaSIsInByZWZlcnJlZF91c2VybmFtZSI6InVzZXIxIiwiZ2l2ZW5fbmFtZSI6IlJhbmlhIiwiZmFtaWx5X25hbWUiOiJIYW1kaSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIn0.WzLg5H7-KwQU7_NdbAfWvGGNuO0isGSbPpSxz9pvCfAU_MQGcowvDZH5rdKPFepF37Y9X__DBwWJkPUEE2iEBf5zzK5u0tmIsNog0Z7Nd66mByp-Up6fYG0xdAdhJiGIGHu8qxlAGFaCzMbVhTNI0TkGFRCJqAma1_JqaFLwfUIR84x_BmbxxwHuhHdLi3V0kpSwuE52FmnhqID-NjYdy8JQCkwPdE356jdU82xWUycybfdhiyhxkMzgPETq9pFHi5PHNb1Bn2CmpeEHvSV2Y0YeuclOA8gBh03rKmG2ljCVyk6CpwP5QYqME9IBoI1lcMOlHICpAcQIQ0obTJx1zg",
+    "issuedAt": "2025-02-21T10:00:02Z",
+    "expiresAt": "2025-02-21T10:05:02Z",
+    "headers": {
+      "kid": "3_3rhppu2oy0i1APbJQm_EMKEJJZ4xCzGsj61UWkJf8",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "http://localhost:4200"
+      ],
+      "iss": "http://localhost:8080/realms/ecom-web-app",
+      "typ": "Bearer",
+      "preferred_username": "user1",
+      "given_name": "Rania",
+      "sid": "29f6c5b1-e185-40b5-91d3-90b53e872868",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "uma_authorization",
+          "USER",
+          "default-roles-ecom-web-app"
+        ]
+      },
+      "azp": "front-end-angular-client",
+      "scope": "email profile",
+      "name": "Rania Hamdi",
+      "exp": "2025-02-21T10:05:02Z",
+      "iat": "2025-02-21T10:00:02Z",
+      "family_name": "Hamdi",
+      "jti": "cd15d0fd-cfbd-4b14-88c7-157ee52df6fc",
+      "email": "user1@gmail.com"
+    },
+    "subject": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+    "notBefore": null,
+    "issuer": "http://localhost:8080/realms/ecom-web-app",
+    "id": "cd15d0fd-cfbd-4b14-88c7-157ee52df6fc",
+    "audience": [
+      "account"
+    ]
+  },
+  "name": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+  "tokenAttributes": {
+    "sub": "86ca748a-e32d-467a-bdde-388ae0c4bc55",
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "email_verified": false,
+    "allowed-origins": [
+      "http://localhost:4200"
+    ],
+    "iss": "http://localhost:8080/realms/ecom-web-app",
+    "typ": "Bearer",
+    "preferred_username": "user1",
+    "given_name": "Rania",
+    "sid": "29f6c5b1-e185-40b5-91d3-90b53e872868",
+    "aud": [
+      "account"
+    ],
+    "acr": "1",
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "uma_authorization",
+        "USER",
+        "default-roles-ecom-web-app"
+      ]
+    },
+    "azp": "front-end-angular-client",
+    "scope": "email profile",
+    "name": "Rania Hamdi",
+    "exp": "2025-02-21T10:05:02Z",
+    "iat": "2025-02-21T10:00:02Z",
+    "family_name": "Hamdi",
+    "jti": "cd15d0fd-cfbd-4b14-88c7-157ee52df6fc",
+    "email": "user1@gmail.com"
+  }
+}
