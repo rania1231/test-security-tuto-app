@@ -26,9 +26,10 @@ public class SecurityConfig {
         return http
                 .cors(Customizer.withDefaults())
 
-                .authorizeHttpRequests(ar-> ar.requestMatchers("/swagger-ui.html","/swagger-ui/**","/v3/**","/h2-console/**","/webjars/**").permitAll()
-                        .anyRequest().authenticated()
-                )
+
+                .authorizeHttpRequests(ar-> ar.requestMatchers("/swagger-ui.html","/swagger-ui/**","/v3/**","/h2-console/**","/webjars/**").permitAll())
+                //.authorizeHttpRequests(ar-> ar.requestMatchers("/api/products").hasAuthority("ADMIN"))// on peut soit utiliser ça soit utiliser l'annotation @PreAuthorize("hasAuthority('ADMIN')")
+                .authorizeHttpRequests(ar-> ar.anyRequest().authenticated())
                 .oauth2ResourceServer(o2rs->o2rs.jwt(jwt->jwt.jwtAuthenticationConverter(jwtAuthConverter)))
                 .headers(h->h.frameOptions(fo->fo.disable()))
                 .csrf(csrf->csrf.disable())
